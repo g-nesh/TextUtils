@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import TextForm from "./components/TextForm";
 import useWindowSize from 'react-use/lib/useWindowSize'
 import Confetti from 'react-confetti'
+// import About from "./components/About";
 
 
 
@@ -16,6 +17,7 @@ function App() {
       <Navbar title="TextUtils" />
       <div className="container my-3">
       <TextForm heading = "Enter the text to analyze below" />
+      {/* <About/> */}
       </div>
       <Confetti
       width={width}
